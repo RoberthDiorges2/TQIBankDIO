@@ -1,1 +1,3 @@
 # TQIBankDIO
+
+Aplicação iOS TQIBank.
