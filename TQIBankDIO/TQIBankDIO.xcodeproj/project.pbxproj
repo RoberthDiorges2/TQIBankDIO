@@ -97,98 +97,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		209CACA427A41D220077DD73 /* Login */ = {
+		2026842D27A42A8200C86C78 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				209CACA927A41D510077DD73 /* Model */,
-				209CACA627A41D390077DD73 /* View */,
-				209CACA727A41D3D0077DD73 /* ViewModel */,
-				209CACA827A41D440077DD73 /* Coordinator */,
-				209CACAA27A41D560077DD73 /* Network */,
+				20DB150827A340EF001E4634 /* ViewController.swift */,
+				20DB150A27A340EF001E4634 /* Main.storyboard */,
+				2026842E27A42A8900C86C78 /* Login */,
+				2026842F27A42A8D00C86C78 /* Home */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		2026842E27A42A8900C86C78 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2026843927A42B1400C86C78 /* Network */,
+				2026843827A42B0C00C86C78 /* Coordinator */,
+				2026843727A42B0700C86C78 /* ViewModel */,
+				2026843627A42B0100C86C78 /* View */,
+				2026843527A42AFC00C86C78 /* Model */,
 			);
 			path = Login;
 			sourceTree = "<group>";
 		};
-		209CACA527A41D290077DD73 /* Home */ = {
+		2026842F27A42A8D00C86C78 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				209CACAF27A41D820077DD73 /* Model */,
-				209CACAB27A41D6A0077DD73 /* View */,
-				209CACAC27A41D6F0077DD73 /* ViewModel */,
-				209CACAD27A41D760077DD73 /* Coordinator */,
-				209CACAE27A41D7C0077DD73 /* Network */,
+				2026843427A42AF500C86C78 /* Network */,
+				2026843327A42AEF00C86C78 /* Coordinator */,
+				2026843227A42AE900C86C78 /* View */,
+				2026843127A42AE400C86C78 /* ViewModel */,
+				2026843027A42ADF00C86C78 /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		209CACA627A41D390077DD73 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		209CACA727A41D3D0077DD73 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		209CACA827A41D440077DD73 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		209CACA927A41D510077DD73 /* Model */ = {
+		2026843027A42ADF00C86C78 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		209CACAA27A41D560077DD73 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		209CACAB27A41D6A0077DD73 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		209CACAC27A41D6F0077DD73 /* ViewModel */ = {
+		2026843127A42AE400C86C78 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		209CACAD27A41D760077DD73 /* Coordinator */ = {
+		2026843227A42AE900C86C78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2026843327A42AEF00C86C78 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		209CACAE27A41D7C0077DD73 /* Network */ = {
+		2026843427A42AF500C86C78 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		209CACAF27A41D820077DD73 /* Model */ = {
+		2026843527A42AFC00C86C78 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2026843627A42B0100C86C78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2026843727A42B0700C86C78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2026843827A42B0C00C86C78 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2026843927A42B1400C86C78 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		20DB14F827A340EF001E4634 = {
@@ -220,9 +231,7 @@
 				20DB153727A342D1001E4634 /* Common */,
 				20DB153527A342BA001E4634 /* Resources */,
 				20DB153427A3411A001E4634 /* Utils */,
-				20DB153827A342DB001E4634 /* Sections */,
-				20DB150827A340EF001E4634 /* ViewController.swift */,
-				20DB150A27A340EF001E4634 /* Main.storyboard */,
+				2026842D27A42A8200C86C78 /* Sections */,
 			);
 			path = TQIBankDIO;
 			sourceTree = "<group>";
@@ -278,15 +287,6 @@
 				20DB151227A340F2001E4634 /* Info.plist */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		20DB153827A342DB001E4634 /* Sections */ = {
-			isa = PBXGroup;
-			children = (
-				209CACA427A41D220077DD73 /* Login */,
-				209CACA527A41D290077DD73 /* Home */,
-			);
-			path = Sections;
 			sourceTree = "<group>";
 		};
 		6242EED8446654682FEC3C2E /* Frameworks */ = {
