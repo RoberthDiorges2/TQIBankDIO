@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20DB150527A340EF001E4634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB150427A340EF001E4634 /* AppDelegate.swift */; };
+		20DB150727A340EF001E4634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB150627A340EF001E4634 /* SceneDelegate.swift */; };
+		20DB150927A340EF001E4634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB150827A340EF001E4634 /* ViewController.swift */; };
+		20DB150C27A340EF001E4634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DB150A27A340EF001E4634 /* Main.storyboard */; };
+		20DB150E27A340F2001E4634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DB150D27A340F2001E4634 /* Assets.xcassets */; };
+		20DB151127A340F2001E4634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DB150F27A340F2001E4634 /* LaunchScreen.storyboard */; };
+		20DB151C27A340F3001E4634 /* TQIBankDIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB151B27A340F3001E4634 /* TQIBankDIOTests.swift */; };
+		20DB152627A340F3001E4634 /* TQIBankDIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB152527A340F3001E4634 /* TQIBankDIOUITests.swift */; };
+		20DB152827A340F3001E4634 /* TQIBankDIOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB152727A340F3001E4634 /* TQIBankDIOUITestsLaunchTests.swift */; };
+		20DB153C27A34318001E4634 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB153927A34318001E4634 /* UICollectionView+Extensions.swift */; };
+		20DB153D27A34318001E4634 /* UICollectionReusableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB153A27A34318001E4634 /* UICollectionReusableView+Extension.swift */; };
+		20DB153E27A34318001E4634 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB153B27A34318001E4634 /* UIView+Extension.swift */; };
+		49D848F4E70A317199B5D5A1 /* Pods_TQIBankDIOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8549816FA63E206EDB15654 /* Pods_TQIBankDIOTests.framework */; };
+		D04049384ADCFA478D19D943 /* Pods_TQIBankDIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB09C0F251A8C902B39683BD /* Pods_TQIBankDIO.framework */; };
+		FF5F1152DFE1980E2713DCFD /* Pods_TQIBankDIO_TQIBankDIOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE85B455041D64EA2E37A33 /* Pods_TQIBankDIO_TQIBankDIOUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20DB151827A340F3001E4634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20DB14F927A340EF001E4634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20DB150027A340EF001E4634;
+			remoteInfo = TQIBankDIO;
+		};
+		20DB152227A340F3001E4634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20DB14F927A340EF001E4634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20DB150027A340EF001E4634;
+			remoteInfo = TQIBankDIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA14577D110B037FCB7D9F2 /* Pods-TQIBankDIOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIOTests.debug.xcconfig"; path = "Target Support Files/Pods-TQIBankDIOTests/Pods-TQIBankDIOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20DB150127A340EF001E4634 /* TQIBankDIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQIBankDIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DB150427A340EF001E4634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20DB150627A340EF001E4634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20DB150827A340EF001E4634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20DB150B27A340EF001E4634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20DB150D27A340F2001E4634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20DB151027A340F2001E4634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20DB151227A340F2001E4634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DB151727A340F3001E4634 /* TQIBankDIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQIBankDIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DB151B27A340F3001E4634 /* TQIBankDIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TQIBankDIOTests.swift; sourceTree = "<group>"; };
+		20DB152127A340F3001E4634 /* TQIBankDIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQIBankDIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DB152527A340F3001E4634 /* TQIBankDIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TQIBankDIOUITests.swift; sourceTree = "<group>"; };
+		20DB152727A340F3001E4634 /* TQIBankDIOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TQIBankDIOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20DB153927A34318001E4634 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		20DB153A27A34318001E4634 /* UICollectionReusableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Extension.swift"; sourceTree = "<group>"; };
+		20DB153B27A34318001E4634 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2CE85B455041D64EA2E37A33 /* Pods_TQIBankDIO_TQIBankDIOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBankDIO_TQIBankDIOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEAAA337C1CF7FFD8DDE0EF /* Pods-TQIBankDIOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIOTests.release.xcconfig"; path = "Target Support Files/Pods-TQIBankDIOTests/Pods-TQIBankDIOTests.release.xcconfig"; sourceTree = "<group>"; };
+		97382F403FB1FE4E27A91C1C /* Pods-TQIBankDIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIO.debug.xcconfig"; path = "Target Support Files/Pods-TQIBankDIO/Pods-TQIBankDIO.debug.xcconfig"; sourceTree = "<group>"; };
+		9C323804C0C3754EF70B981F /* Pods-TQIBankDIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIO.release.xcconfig"; path = "Target Support Files/Pods-TQIBankDIO/Pods-TQIBankDIO.release.xcconfig"; sourceTree = "<group>"; };
+		C671E08AE0FFB7B470E884DC /* Pods-TQIBankDIO-TQIBankDIOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIO-TQIBankDIOUITests.release.xcconfig"; path = "Target Support Files/Pods-TQIBankDIO-TQIBankDIOUITests/Pods-TQIBankDIO-TQIBankDIOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8549816FA63E206EDB15654 /* Pods_TQIBankDIOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBankDIOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB09C0F251A8C902B39683BD /* Pods_TQIBankDIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBankDIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA1361890EF7BA05EB64F16 /* Pods-TQIBankDIO-TQIBankDIOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIO-TQIBankDIOUITests.debug.xcconfig"; path = "Target Support Files/Pods-TQIBankDIO-TQIBankDIOUITests/Pods-TQIBankDIO-TQIBankDIOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20DB14FE27A340EF001E4634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04049384ADCFA478D19D943 /* Pods_TQIBankDIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DB151427A340F3001E4634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D848F4E70A317199B5D5A1 /* Pods_TQIBankDIOTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DB151E27A340F3001E4634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5F1152DFE1980E2713DCFD /* Pods_TQIBankDIO_TQIBankDIOUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209CACA427A41D220077DD73 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				209CACA927A41D510077DD73 /* Model */,
+				209CACA627A41D390077DD73 /* View */,
+				209CACA727A41D3D0077DD73 /* ViewModel */,
+				209CACA827A41D440077DD73 /* Coordinator */,
+				209CACAA27A41D560077DD73 /* Network */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		209CACA527A41D290077DD73 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				209CACAF27A41D820077DD73 /* Model */,
+				209CACAB27A41D6A0077DD73 /* View */,
+				209CACAC27A41D6F0077DD73 /* ViewModel */,
+				209CACAD27A41D760077DD73 /* Coordinator */,
+				209CACAE27A41D7C0077DD73 /* Network */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		209CACA627A41D390077DD73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		209CACA727A41D3D0077DD73 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		209CACA827A41D440077DD73 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		209CACA927A41D510077DD73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		209CACAA27A41D560077DD73 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		209CACAB27A41D6A0077DD73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		209CACAC27A41D6F0077DD73 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		209CACAD27A41D760077DD73 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		209CACAE27A41D7C0077DD73 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		209CACAF27A41D820077DD73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20DB14F827A340EF001E4634 = {
+			isa = PBXGroup;
+			children = (
+				20DB150327A340EF001E4634 /* TQIBankDIO */,
+				20DB151A27A340F3001E4634 /* TQIBankDIOTests */,
+				20DB152427A340F3001E4634 /* TQIBankDIOUITests */,
+				20DB150227A340EF001E4634 /* Products */,
+				7C119A6AFB0E4D189E68E8F9 /* Pods */,
+				6242EED8446654682FEC3C2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20DB150227A340EF001E4634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20DB150127A340EF001E4634 /* TQIBankDIO.app */,
+				20DB151727A340F3001E4634 /* TQIBankDIOTests.xctest */,
+				20DB152127A340F3001E4634 /* TQIBankDIOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20DB150327A340EF001E4634 /* TQIBankDIO */ = {
+			isa = PBXGroup;
+			children = (
+				20DB153627A342C5001E4634 /* AppDelegate */,
+				20DB153727A342D1001E4634 /* Common */,
+				20DB153527A342BA001E4634 /* Resources */,
+				20DB153427A3411A001E4634 /* Utils */,
+				20DB153827A342DB001E4634 /* Sections */,
+				20DB150827A340EF001E4634 /* ViewController.swift */,
+				20DB150A27A340EF001E4634 /* Main.storyboard */,
+			);
+			path = TQIBankDIO;
+			sourceTree = "<group>";
+		};
+		20DB151A27A340F3001E4634 /* TQIBankDIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				20DB151B27A340F3001E4634 /* TQIBankDIOTests.swift */,
+			);
+			path = TQIBankDIOTests;
+			sourceTree = "<group>";
+		};
+		20DB152427A340F3001E4634 /* TQIBankDIOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20DB152527A340F3001E4634 /* TQIBankDIOUITests.swift */,
+				20DB152727A340F3001E4634 /* TQIBankDIOUITestsLaunchTests.swift */,
+			);
+			path = TQIBankDIOUITests;
+			sourceTree = "<group>";
+		};
+		20DB153427A3411A001E4634 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				20DB153A27A34318001E4634 /* UICollectionReusableView+Extension.swift */,
+				20DB153927A34318001E4634 /* UICollectionView+Extensions.swift */,
+				20DB153B27A34318001E4634 /* UIView+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		20DB153527A342BA001E4634 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20DB150D27A340F2001E4634 /* Assets.xcassets */,
+				20DB150F27A340F2001E4634 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20DB153627A342C5001E4634 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				20DB150427A340EF001E4634 /* AppDelegate.swift */,
+				20DB150627A340EF001E4634 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		20DB153727A342D1001E4634 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				20DB151227A340F2001E4634 /* Info.plist */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		20DB153827A342DB001E4634 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				209CACA427A41D220077DD73 /* Login */,
+				209CACA527A41D290077DD73 /* Home */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		6242EED8446654682FEC3C2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB09C0F251A8C902B39683BD /* Pods_TQIBankDIO.framework */,
+				2CE85B455041D64EA2E37A33 /* Pods_TQIBankDIO_TQIBankDIOUITests.framework */,
+				D8549816FA63E206EDB15654 /* Pods_TQIBankDIOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C119A6AFB0E4D189E68E8F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97382F403FB1FE4E27A91C1C /* Pods-TQIBankDIO.debug.xcconfig */,
+				9C323804C0C3754EF70B981F /* Pods-TQIBankDIO.release.xcconfig */,
+				FFA1361890EF7BA05EB64F16 /* Pods-TQIBankDIO-TQIBankDIOUITests.debug.xcconfig */,
+				C671E08AE0FFB7B470E884DC /* Pods-TQIBankDIO-TQIBankDIOUITests.release.xcconfig */,
+				1DA14577D110B037FCB7D9F2 /* Pods-TQIBankDIOTests.debug.xcconfig */,
+				5CEAAA337C1CF7FFD8DDE0EF /* Pods-TQIBankDIOTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20DB150027A340EF001E4634 /* TQIBankDIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20DB152B27A340F3001E4634 /* Build configuration list for PBXNativeTarget "TQIBankDIO" */;
+			buildPhases = (
+				3AF9EF65066B2EA7C4D79F26 /* [CP] Check Pods Manifest.lock */,
+				20DB14FD27A340EF001E4634 /* Sources */,
+				20DB14FE27A340EF001E4634 /* Frameworks */,
+				20DB14FF27A340EF001E4634 /* Resources */,
+				4E4E77602D825623481DA518 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TQIBankDIO;
+			productName = TQIBankDIO;
+			productReference = 20DB150127A340EF001E4634 /* TQIBankDIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20DB151627A340F3001E4634 /* TQIBankDIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20DB152E27A340F3001E4634 /* Build configuration list for PBXNativeTarget "TQIBankDIOTests" */;
+			buildPhases = (
+				EBD999493E9B7EB4E072EAF7 /* [CP] Check Pods Manifest.lock */,
+				20DB151327A340F3001E4634 /* Sources */,
+				20DB151427A340F3001E4634 /* Frameworks */,
+				20DB151527A340F3001E4634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20DB151927A340F3001E4634 /* PBXTargetDependency */,
+			);
+			name = TQIBankDIOTests;
+			productName = TQIBankDIOTests;
+			productReference = 20DB151727A340F3001E4634 /* TQIBankDIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20DB152027A340F3001E4634 /* TQIBankDIOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20DB153127A340F3001E4634 /* Build configuration list for PBXNativeTarget "TQIBankDIOUITests" */;
+			buildPhases = (
+				5EDE56A0C814C838F8C459E6 /* [CP] Check Pods Manifest.lock */,
+				20DB151D27A340F3001E4634 /* Sources */,
+				20DB151E27A340F3001E4634 /* Frameworks */,
+				20DB151F27A340F3001E4634 /* Resources */,
+				81C04D48A11E71FAFC6CBEDE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20DB152327A340F3001E4634 /* PBXTargetDependency */,
+			);
+			name = TQIBankDIOUITests;
+			productName = TQIBankDIOUITests;
+			productReference = 20DB152127A340F3001E4634 /* TQIBankDIOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20DB14F927A340EF001E4634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					20DB150027A340EF001E4634 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					20DB151627A340F3001E4634 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 20DB150027A340EF001E4634;
+					};
+					20DB152027A340F3001E4634 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 20DB150027A340EF001E4634;
+					};
+				};
+			};
+			buildConfigurationList = 20DB14FC27A340EF001E4634 /* Build configuration list for PBXProject "TQIBankDIO" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20DB14F827A340EF001E4634;
+			productRefGroup = 20DB150227A340EF001E4634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20DB150027A340EF001E4634 /* TQIBankDIO */,
+				20DB151627A340F3001E4634 /* TQIBankDIOTests */,
+				20DB152027A340F3001E4634 /* TQIBankDIOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20DB14FF27A340EF001E4634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DB151127A340F2001E4634 /* LaunchScreen.storyboard in Resources */,
+				20DB150E27A340F2001E4634 /* Assets.xcassets in Resources */,
+				20DB150C27A340EF001E4634 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DB151527A340F3001E4634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DB151F27A340F3001E4634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AF9EF65066B2EA7C4D79F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TQIBankDIO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4E77602D825623481DA518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBankDIO/Pods-TQIBankDIO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EDE56A0C814C838F8C459E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TQIBankDIO-TQIBankDIOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C04D48A11E71FAFC6CBEDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBankDIO-TQIBankDIOUITests/Pods-TQIBankDIO-TQIBankDIOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD999493E9B7EB4E072EAF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TQIBankDIOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20DB14FD27A340EF001E4634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DB153E27A34318001E4634 /* UIView+Extension.swift in Sources */,
+				20DB153C27A34318001E4634 /* UICollectionView+Extensions.swift in Sources */,
+				20DB150927A340EF001E4634 /* ViewController.swift in Sources */,
+				20DB153D27A34318001E4634 /* UICollectionReusableView+Extension.swift in Sources */,
+				20DB150527A340EF001E4634 /* AppDelegate.swift in Sources */,
+				20DB150727A340EF001E4634 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DB151327A340F3001E4634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DB151C27A340F3001E4634 /* TQIBankDIOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DB151D27A340F3001E4634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DB152827A340F3001E4634 /* TQIBankDIOUITestsLaunchTests.swift in Sources */,
+				20DB152627A340F3001E4634 /* TQIBankDIOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20DB151927A340F3001E4634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20DB150027A340EF001E4634 /* TQIBankDIO */;
+			targetProxy = 20DB151827A340F3001E4634 /* PBXContainerItemProxy */;
+		};
+		20DB152327A340F3001E4634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20DB150027A340EF001E4634 /* TQIBankDIO */;
+			targetProxy = 20DB152227A340F3001E4634 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20DB150A27A340EF001E4634 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20DB150B27A340EF001E4634 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20DB150F27A340F2001E4634 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20DB151027A340F2001E4634 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20DB152927A340F3001E4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20DB152A27A340F3001E4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20DB152C27A340F3001E4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97382F403FB1FE4E27A91C1C /* Pods-TQIBankDIO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TQIBankDIO/Common/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roberth.TQIBankDIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20DB152D27A340F3001E4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C323804C0C3754EF70B981F /* Pods-TQIBankDIO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TQIBankDIO/Common/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roberth.TQIBankDIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20DB152F27A340F3001E4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA14577D110B037FCB7D9F2 /* Pods-TQIBankDIOTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roberth.TQIBankDIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQIBankDIO.app/TQIBankDIO";
+			};
+			name = Debug;
+		};
+		20DB153027A340F3001E4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CEAAA337C1CF7FFD8DDE0EF /* Pods-TQIBankDIOTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roberth.TQIBankDIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQIBankDIO.app/TQIBankDIO";
+			};
+			name = Release;
+		};
+		20DB153227A340F3001E4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA1361890EF7BA05EB64F16 /* Pods-TQIBankDIO-TQIBankDIOUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roberth.TQIBankDIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TQIBankDIO;
+			};
+			name = Debug;
+		};
+		20DB153327A340F3001E4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C671E08AE0FFB7B470E884DC /* Pods-TQIBankDIO-TQIBankDIOUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roberth.TQIBankDIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TQIBankDIO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20DB14FC27A340EF001E4634 /* Build configuration list for PBXProject "TQIBankDIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DB152927A340F3001E4634 /* Debug */,
+				20DB152A27A340F3001E4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20DB152B27A340F3001E4634 /* Build configuration list for PBXNativeTarget "TQIBankDIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DB152C27A340F3001E4634 /* Debug */,
+				20DB152D27A340F3001E4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20DB152E27A340F3001E4634 /* Build configuration list for PBXNativeTarget "TQIBankDIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DB152F27A340F3001E4634 /* Debug */,
+				20DB153027A340F3001E4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20DB153127A340F3001E4634 /* Build configuration list for PBXNativeTarget "TQIBankDIOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DB153227A340F3001E4634 /* Debug */,
+				20DB153327A340F3001E4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20DB14F927A340EF001E4634 /* Project object */;
+}

@@ -1,0 +1,21 @@
+PODS:
+  - TQICoordinator (1.1.0)
+
+DEPENDENCIES:
+  - TQICoordinator (from `https://github.com/vafreitas/ios-mod-coordinator.git`)
+
+EXTERNAL SOURCES:
+  TQICoordinator:
+    :git: https://github.com/vafreitas/ios-mod-coordinator.git
+
+CHECKOUT OPTIONS:
+  TQICoordinator:
+    :commit: c821294082a55b57f7884be8d3a797be0d6db1b3
+    :git: https://github.com/vafreitas/ios-mod-coordinator.git
+
+SPEC CHECKSUMS:
+  TQICoordinator: 43c342be3dc6732aea451ddcde9675de3bebe711
+
+PODFILE CHECKSUM: 82fa4692936ba4d0ac8236968c904f927c886c4d
+
+COCOAPODS: 1.11.2
