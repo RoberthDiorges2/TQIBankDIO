@@ -100,106 +100,106 @@
 		2026842D27A42A8200C86C78 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				2026843B27A42BB800C86C78 /* Login */,
+				2026843A27A42BB200C86C78 /* Home */,
 				20DB150827A340EF001E4634 /* ViewController.swift */,
 				20DB150A27A340EF001E4634 /* Main.storyboard */,
-				2026842E27A42A8900C86C78 /* Login */,
-				2026842F27A42A8D00C86C78 /* Home */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
 		};
-		2026842E27A42A8900C86C78 /* Login */ = {
+		2026843A27A42BB200C86C78 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				2026843927A42B1400C86C78 /* Network */,
-				2026843827A42B0C00C86C78 /* Coordinator */,
-				2026843727A42B0700C86C78 /* ViewModel */,
-				2026843627A42B0100C86C78 /* View */,
-				2026843527A42AFC00C86C78 /* Model */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		2026842F27A42A8D00C86C78 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				2026843427A42AF500C86C78 /* Network */,
-				2026843327A42AEF00C86C78 /* Coordinator */,
-				2026843227A42AE900C86C78 /* View */,
-				2026843127A42AE400C86C78 /* ViewModel */,
-				2026843027A42ADF00C86C78 /* Model */,
+				2026844527A42C3B00C86C78 /* Model */,
+				2026844427A42C3100C86C78 /* Network */,
+				2026844327A42C2C00C86C78 /* Coordinator */,
+				2026844227A42C2600C86C78 /* ViewModel */,
+				2026844127A42C2200C86C78 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		2026843027A42ADF00C86C78 /* Model */ = {
+		2026843B27A42BB800C86C78 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2026844027A42C1800C86C78 /* Network */,
+				2026843F27A42C0C00C86C78 /* Coordinator */,
+				2026843E27A42C0700C86C78 /* ViewModel */,
+				2026843D27A42C0300C86C78 /* View */,
+				2026843C27A42BFC00C86C78 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2026843C27A42BFC00C86C78 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		2026843127A42AE400C86C78 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		2026843227A42AE900C86C78 /* View */ = {
+		2026843D27A42C0300C86C78 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		2026843327A42AEF00C86C78 /* Coordinator */ = {
+		2026843E27A42C0700C86C78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2026843F27A42C0C00C86C78 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		2026843427A42AF500C86C78 /* Network */ = {
+		2026844027A42C1800C86C78 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		2026843527A42AFC00C86C78 /* Model */ = {
+		2026844127A42C2200C86C78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2026844227A42C2600C86C78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2026844327A42C2C00C86C78 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2026844427A42C3100C86C78 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2026844527A42C3B00C86C78 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		2026843627A42B0100C86C78 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2026843727A42B0700C86C78 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		2026843827A42B0C00C86C78 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		2026843927A42B1400C86C78 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 		20DB14F827A340EF001E4634 = {
