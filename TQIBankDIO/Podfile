@@ -7,7 +7,7 @@ target 'TQIBankDIO' do
   use_frameworks!
 
   # Pods for TQIBankDIO
-  
+  pod 'VFNetwork'
   pod 'TQICoordinator', :git => 'https://github.com/vafreitas/ios-mod-coordinator.git'
 
   target 'TQIBankDIOTests' do
