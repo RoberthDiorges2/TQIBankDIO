@@ -1,8 +1,14 @@
 PODS:
   - TQICoordinator (1.1.0)
+  - VFNetwork (1.4.1)
 
 DEPENDENCIES:
   - TQICoordinator (from `https://github.com/vafreitas/ios-mod-coordinator.git`)
+  - VFNetwork
+
+SPEC REPOS:
+  trunk:
+    - VFNetwork
 
 EXTERNAL SOURCES:
   TQICoordinator:
@@ -15,7 +21,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   TQICoordinator: 43c342be3dc6732aea451ddcde9675de3bebe711
+  VFNetwork: 2070046bcd8b7e766affc3d1a4cd7729c3b38880
 
-PODFILE CHECKSUM: 82fa4692936ba4d0ac8236968c904f927c886c4d
+PODFILE CHECKSUM: 9d66286f7f4873c20db4a44ea34ff6fa202cc1d8
 
 COCOAPODS: 1.11.2
