@@ -1,0 +1,30 @@
+{
+  "menuOptions": [
+    {
+      "url": "https://github.com/PSRoberthDiorges/TQIBank/blob/main/MenuIcons/extract_icon.png",
+      "name": "Extrato",
+      "type": "EXTRACT"
+    },
+    {
+      "url": "https://github.com/PSRoberthDiorges/TQIBank/blob/main/MenuIcons/money_icon.png",
+      "name": "Pix",
+      "type": "PIX"
+    },
+    {
+      "url": "https://github.com/PSRoberthDiorges/TQIBank/blob/main/MenuIcons/credit_card_icon.png",
+      "name": "Cartão",
+      "type": "CARD"
+    },
+    {
+      "url": "https://github.com/PSRoberthDiorges/TQIBank/blob/main/MenuIcons/payment_icon.png",
+      "name": "Pagar",
+      "type": "PAYMENT"
+    },
+    {
+      "url": "https://github.com/PSRoberthDiorges/TQIBank/blob/main/MenuIcons/account_balance_icon.png",
+      "name": "Depositar",
+      "type": "DEPOSIT"
+    }
+  ]
+}
+
