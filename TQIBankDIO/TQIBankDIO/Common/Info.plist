@@ -6,7 +6,7 @@
 	<string>sandbox</string>
 	<key>Protocol</key>
 	<string>https</string>
-	<key>base_URL</key>
+	<key>Base_URL</key>
 	<string>private-1c4f09-tqibankapi.apiary-mock.com</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
