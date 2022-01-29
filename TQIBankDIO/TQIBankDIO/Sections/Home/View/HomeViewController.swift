@@ -31,7 +31,8 @@ class HomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        navigationController?.setNavigationBarHidden(true, animated: false)
+        // By Markus
+        //        navigationController?.setNavigationBarHidden(true, animated: false)
         viewModel.getMenuOptions()
     }
     
