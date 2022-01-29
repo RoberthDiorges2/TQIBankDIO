@@ -7,7 +7,7 @@
 
 import Foundation
 import TQICoordinator
-
+import TQIExtractDIO
 
 class HomeCoordinator: Coordinator {
     
@@ -17,8 +17,11 @@ class HomeCoordinator: Coordinator {
     var viewModel: HomeViewModel?
     var view: HomeViewController?
     
+    var extractListCoordinator: ExtractListCoordinator?
+    
     init() {
         viewModel = HomeViewModel()
+        viewModel?.coordinatorDelegate = self
         view = HomeViewController(viewModel: viewModel!)
     }
     
@@ -27,5 +30,14 @@ class HomeCoordinator: Coordinator {
         presentationType = nil
         viewModel = nil
         view = nil
+        extractListCoordinator = nil
+    }
+}
+
+extension HomeCoordinator: HomeViewModelCoordinatorDelegate {
+    func homeViewModelGoToExtract(_ viewModel: HomeViewModel) {
+        guard let navigation = navigation else { return }
+        extractListCoordinator = ExtractListCoordinator()
+        extractListCoordinator?.start(usingPresentation: .push(navigation: navigation))
     }
 }

@@ -13,7 +13,7 @@ protocol HomeViewModelViewDelegate: AnyObject {
 }
 
 protocol HomeViewModelCoordinatorDelegate: AnyObject {
-    
+    func homeViewModelGoToExtract(_ viewModel: HomeViewModel)
 }
 
 class HomeViewModel {
@@ -41,5 +41,9 @@ class HomeViewModel {
                 }
             }
         }
+    }
+    
+    func goToExtract() {
+        coordinatorDelegate?.homeViewModelGoToExtract(self)
     }
 }

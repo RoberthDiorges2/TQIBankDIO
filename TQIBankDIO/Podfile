@@ -8,6 +8,7 @@ target 'TQIBankDIO' do
 
   # Pods for TQIBankDIO
   pod 'VFNetwork'
+  pod 'TQIExtractDIO', :git => 'https://github.com/tqi-valves/TQIExtractDIO.git'
   pod 'TQICoordinator', :git => 'https://github.com/vafreitas/ios-mod-coordinator.git'
 
   target 'TQIBankDIOTests' do

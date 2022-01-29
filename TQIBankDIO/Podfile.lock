@@ -1,9 +1,13 @@
 PODS:
   - TQICoordinator (1.1.0)
+  - TQIExtractDIO (0.1.0):
+    - TQICoordinator
+    - VFNetwork
   - VFNetwork (1.4.1)
 
 DEPENDENCIES:
   - TQICoordinator (from `https://github.com/vafreitas/ios-mod-coordinator.git`)
+  - TQIExtractDIO (from `https://github.com/tqi-valves/TQIExtractDIO.git`)
   - VFNetwork
 
 SPEC REPOS:
@@ -13,16 +17,22 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   TQICoordinator:
     :git: https://github.com/vafreitas/ios-mod-coordinator.git
+  TQIExtractDIO:
+    :git: https://github.com/tqi-valves/TQIExtractDIO.git
 
 CHECKOUT OPTIONS:
   TQICoordinator:
     :commit: c821294082a55b57f7884be8d3a797be0d6db1b3
     :git: https://github.com/vafreitas/ios-mod-coordinator.git
+  TQIExtractDIO:
+    :commit: a7231ce07eddd15acf0ebf3502da87539941df3a
+    :git: https://github.com/tqi-valves/TQIExtractDIO.git
 
 SPEC CHECKSUMS:
   TQICoordinator: 43c342be3dc6732aea451ddcde9675de3bebe711
+  TQIExtractDIO: 00bc49ad2b5c07bb594a73021b4f617292b65af8
   VFNetwork: 2070046bcd8b7e766affc3d1a4cd7729c3b38880
 
-PODFILE CHECKSUM: 9d66286f7f4873c20db4a44ea34ff6fa202cc1d8
+PODFILE CHECKSUM: 39e5623804b0be83b9ecc3432e568481128620c5
 
 COCOAPODS: 1.11.2

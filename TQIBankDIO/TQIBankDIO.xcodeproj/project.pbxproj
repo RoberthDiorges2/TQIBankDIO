@@ -377,6 +377,7 @@
 				20DB14FE27A340EF001E4634 /* Frameworks */,
 				20DB14FF27A340EF001E4634 /* Resources */,
 				4E4E77602D825623481DA518 /* [CP] Embed Pods Frameworks */,
+				B55A469C4F3BA94C9BC95C46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -415,6 +416,7 @@
 				20DB151E27A340F3001E4634 /* Frameworks */,
 				20DB151F27A340F3001E4634 /* Resources */,
 				81C04D48A11E71FAFC6CBEDE /* [CP] Embed Pods Frameworks */,
+				460CF22AE931E622C8D780BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -521,6 +523,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		460CF22AE931E622C8D780BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBankDIO-TQIBankDIOUITests/Pods-TQIBankDIO-TQIBankDIOUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4E4E77602D825623481DA518 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,6 +588,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBankDIO-TQIBankDIOUITests/Pods-TQIBankDIO-TQIBankDIOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55A469C4F3BA94C9BC95C46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TQIBankDIO/Pods-TQIBankDIO-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EBD999493E9B7EB4E072EAF7 /* [CP] Check Pods Manifest.lock */ = {
