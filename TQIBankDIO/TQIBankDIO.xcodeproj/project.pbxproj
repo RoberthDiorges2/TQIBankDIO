@@ -38,6 +38,9 @@
 		858BC59627A5EAD4002767A9 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BC59527A5EAD4002767A9 /* HomeViewModelTests.swift */; };
 		858BC59827A5EED4002767A9 /* get_menu_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 858BC59727A5EED4002767A9 /* get_menu_response_success.json */; };
 		D04049384ADCFA478D19D943 /* Pods_TQIBankDIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB09C0F251A8C902B39683BD /* Pods_TQIBankDIO.framework */; };
+		D1D2ED2527A726AA00CF34BF /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D2ED2427A726AA00CF34BF /* LoginViewModelTests.swift */; };
+		D1D2ED2927A726E800CF34BF /* login_response_success.json in Resources */ = {isa = PBXBuildFile; fileRef = D1D2ED2727A726E300CF34BF /* login_response_success.json */; };
+		D1D2ED2B27A7272D00CF34BF /* login_response_failure.json in Resources */ = {isa = PBXBuildFile; fileRef = D1D2ED2A27A7272D00CF34BF /* login_response_failure.json */; };
 		FF5F1152DFE1980E2713DCFD /* Pods_TQIBankDIO_TQIBankDIOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE85B455041D64EA2E37A33 /* Pods_TQIBankDIO_TQIBankDIOUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +101,9 @@
 		97382F403FB1FE4E27A91C1C /* Pods-TQIBankDIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIO.debug.xcconfig"; path = "Target Support Files/Pods-TQIBankDIO/Pods-TQIBankDIO.debug.xcconfig"; sourceTree = "<group>"; };
 		9C323804C0C3754EF70B981F /* Pods-TQIBankDIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIO.release.xcconfig"; path = "Target Support Files/Pods-TQIBankDIO/Pods-TQIBankDIO.release.xcconfig"; sourceTree = "<group>"; };
 		C671E08AE0FFB7B470E884DC /* Pods-TQIBankDIO-TQIBankDIOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIO-TQIBankDIOUITests.release.xcconfig"; path = "Target Support Files/Pods-TQIBankDIO-TQIBankDIOUITests/Pods-TQIBankDIO-TQIBankDIOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1D2ED2427A726AA00CF34BF /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModelTests.swift; path = ../../../../../../Documents/LoginViewModelTests.swift; sourceTree = "<group>"; };
+		D1D2ED2727A726E300CF34BF /* login_response_success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = login_response_success.json; path = ../../../../../../Documents/login_response_success.json; sourceTree = "<group>"; };
+		D1D2ED2A27A7272D00CF34BF /* login_response_failure.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = login_response_failure.json; path = ../../../../../../Documents/login_response_failure.json; sourceTree = "<group>"; };
 		D8549816FA63E206EDB15654 /* Pods_TQIBankDIOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBankDIOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB09C0F251A8C902B39683BD /* Pods_TQIBankDIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQIBankDIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA1361890EF7BA05EB64F16 /* Pods-TQIBankDIO-TQIBankDIOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQIBankDIO-TQIBankDIOUITests.debug.xcconfig"; path = "Target Support Files/Pods-TQIBankDIO-TQIBankDIOUITests/Pods-TQIBankDIO-TQIBankDIOUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -373,6 +379,7 @@
 		858BC59127A5EA4F002767A9 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				D1D2ED2227A7269000CF34BF /* Login */,
 				858BC59227A5EA66002767A9 /* Home */,
 			);
 			path = Sections;
@@ -399,6 +406,32 @@
 			isa = PBXGroup;
 			children = (
 				858BC59727A5EED4002767A9 /* get_menu_response_success.json */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		D1D2ED2227A7269000CF34BF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D1D2ED2627A726C800CF34BF /* Response */,
+				D1D2ED2327A7269500CF34BF /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D1D2ED2327A7269500CF34BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1D2ED2427A726AA00CF34BF /* LoginViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D1D2ED2627A726C800CF34BF /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				D1D2ED2727A726E300CF34BF /* login_response_success.json */,
+				D1D2ED2A27A7272D00CF34BF /* login_response_failure.json */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -515,10 +548,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2063098B27A5B51F009E88F4 /* HomeCollectionViewCell.xib in Resources */,
+				D1D2ED2B27A7272D00CF34BF /* login_response_failure.json in Resources */,
 				2063096C27A5A728009E88F4 /* LoginViewController.xib in Resources */,
 				20DB151127A340F2001E4634 /* LaunchScreen.storyboard in Resources */,
 				20DB150E27A340F2001E4634 /* Assets.xcassets in Resources */,
 				858BC59827A5EED4002767A9 /* get_menu_response_success.json in Resources */,
+				D1D2ED2927A726E800CF34BF /* login_response_success.json in Resources */,
 				2063098227A5B2DF009E88F4 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,6 +734,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D2ED2527A726AA00CF34BF /* LoginViewModelTests.swift in Sources */,
 				20DB151C27A340F3001E4634 /* TQIBankDIOTests.swift in Sources */,
 				858BC59627A5EAD4002767A9 /* HomeViewModelTests.swift in Sources */,
 			);
