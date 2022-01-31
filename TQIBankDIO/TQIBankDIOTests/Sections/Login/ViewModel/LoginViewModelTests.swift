@@ -15,6 +15,7 @@ class LoginViewModelTests: XCTestCase {
     var mock: JSONMockOrchestrator!
     
     var goToHome = false
+    var showLoading = true
     
     var postAuthenticateSuccess: ((_ response: User) -> Void)?
     var postAuthenticateFailure: ((_ error: Error) -> Void)?
@@ -48,6 +49,7 @@ class LoginViewModelTests: XCTestCase {
         postAuthenticateSuccess = { response in
             XCTAssertNotNil(response)
             XCTAssertTrue(self.goToHome)
+            XCTAssertFalse(self.showLoading)
             expectation.fulfill()
         }
 
@@ -84,6 +86,10 @@ extension LoginViewModelTests: LoginViewModelCoordinatorDelegate {
 }
 
 extension LoginViewModelTests: LoginViewModelViewDelegate {
+    func showLoading(_ viewModel: LoginViewModel, isLoanding: Bool) {
+        showLoading = false
+    }
+    
     func showError(_ viewModel: LoginViewModel, error: Error) {
         postAuthenticateFailure?(error)
     }

@@ -37,6 +37,7 @@ class HomeCoordinator: Coordinator {
 extension HomeCoordinator: HomeViewModelCoordinatorDelegate {
     func homeViewModelGoToExtract(_ viewModel: HomeViewModel) {
         guard let navigation = navigation else { return }
+        navigation.setNavigationBarHidden(false, animated: true)
         extractListCoordinator = ExtractListCoordinator()
         extractListCoordinator?.start(usingPresentation: .push(navigation: navigation))
     }

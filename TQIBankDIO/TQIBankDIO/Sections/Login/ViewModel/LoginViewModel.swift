@@ -14,6 +14,7 @@ protocol LoginViewModelCoordinatorDelegate: AnyObject {
 
 protocol LoginViewModelViewDelegate: AnyObject {
     func showError(_ viewModel: LoginViewModel, error: Error)
+    func showLoading(_ viewModel: LoginViewModel, isLoanding: Bool)
 }
 
 class LoginViewModel {
@@ -30,6 +31,7 @@ class LoginViewModel {
     public func postAuthenticate(userName: String, password: String) {
         
         service.postAuthenticate(userName: userName, password: password) { result in
+            self.viewDelegate?.showLoading(self, isLoanding: false)
             switch result {
             case let .success(user):
                 self.coordinatorDelegate?.goToHome(self, user: user)

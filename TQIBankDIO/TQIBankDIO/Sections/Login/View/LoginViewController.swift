@@ -49,6 +49,10 @@ class LoginViewController: UIViewController {
 }
 
 extension LoginViewController: LoginViewModelViewDelegate {
+    func showLoading(_ viewModel: LoginViewModel, isLoanding: Bool) {
+        self.isLoading(isLoanding)
+    }
+    
     func showError(_ viewModel: LoginViewModel, error: Error) {
         debugPrint(error)
     }
