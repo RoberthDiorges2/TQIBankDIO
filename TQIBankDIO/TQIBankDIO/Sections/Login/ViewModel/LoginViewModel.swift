@@ -8,7 +8,7 @@
 import Foundation
 import VFNetwork
 
-protocol LoginViewModelCoordinatordelegate: AnyObject {
+protocol LoginViewModelCoordinatorDelegate: AnyObject {
     func goToHome(_ viewModel: LoginViewModel, user: User)
 }
 
@@ -21,7 +21,7 @@ class LoginViewModel {
     let service: LoginService
     
     weak var viewDelegate: LoginViewModelViewDelegate?
-    weak var coordinatorDelegate: LoginViewModelCoordinatordelegate?
+    weak var coordinatorDelegate: LoginViewModelCoordinatorDelegate?
     
     public init(service: LoginService = .init()) {
         self.service = service

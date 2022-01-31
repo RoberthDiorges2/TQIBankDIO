@@ -33,7 +33,7 @@ class LoginCoordinator {
     }
 }
 
-extension LoginCoordinator: LoginViewModelCoordinatordelegate {
+extension LoginCoordinator: LoginViewModelCoordinatorDelegate {
     func goToHome(_ viewModel: LoginViewModel, user: User) {
         guard let navigation = navigationController else { return }
         homeCoordinator = HomeCoordinator()
